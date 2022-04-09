@@ -1,0 +1,196 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Kanit:wght@500&family=Teko&display=swap');
+
+/* __________________________ */
+
+body{
+    margin: 0;
+}
+.wrapper{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+/* Styles for main Navigation */
+.leftmenu{
+
+}
+.main-navigation{
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    writing-mode: vertical-rl;
+}
+.listitems a{
+    text-decoration: none;
+    font-family: 'Kanit',
+    sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    width: 40px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listitems{
+    list-style: none;
+    
+}
+
+    .listitems a:hover {
+        background-color: #eb414c;
+        box-shadow: 0px 15px 20px #eb414c;
+        color: #fff;
+        letter-spacing: 2.5px;
+        transform: translateX(7px);
+    }
+
+/* __________________________ */
+
+
+/* styles for brand container */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 60px;
+    margin: 50px 100px;
+}
+nav img{
+    height: 100px;
+}
+nav span{
+    font-size: 60px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+
+
+/* __________________________ */
+
+
+/* styles for body part */
+
+/* styles for body tag */
+.rightbox {
+    margin: 0;
+}
+
+/* __________________________ */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 550px;
+}
+
+/* left side styling */
+
+.left{
+    display: flex;
+    padding: 10%;
+    font-family: 'Teko', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.left h1{
+    font-size: 3em;
+}
+.left h5{
+    font-size: 2em;
+}
+.left p{
+    font-size: 1.5em;
+}
+button {
+    width: 240px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #ff0303;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 0px 6px rgb(255, 113, 113);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+    
+    button:hover {
+        background-color: #02e232;
+        box-shadow: 0px 15px 20px #6cf589;
+        color: #fff;
+        transform: translateY(-7px);
+    }
+
+
+
+/* __________________________ */
+.right{
+    
+    background:white;
+    min-height: 500px;    
+}
+
+.rightimg img{
+    width: 700px;
+}
+
+/* __________________________ */
+@media (max-width:1200px) {
+    .rightimg img {
+        width: 500px;
+    }
+
+}
+
+@media (max-width:1000px) {
+    .rightimg img{
+        width: 400px;
+    }
+    
+}    
+
+
+/* _______________________________________________________________ */
+
+#optionsselect{
+    padding: 5%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+.serviceprovided{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.serviceitems{
+    width:30%;
+}
+.serviceitems img{
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
